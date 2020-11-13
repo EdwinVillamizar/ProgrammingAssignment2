@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This code resolve the assisgnment 2 doing a especial|| matrix
 
 makeCacheMatrix <- function(x = matrix()){
   invert <- NULL
@@ -15,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()){
   list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
 
+## This code resolve the assisgnment 2 cathing the inverse of matrix
 cacheSolve <- function(x, ...){
   invert <- x$getInverse()
   if(!is.null(invert)){
